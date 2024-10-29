@@ -14,8 +14,6 @@ export class Viewer{
 
     render(folders:any[]){
         const folder = new Folder("resume",50, 50, this.viewer);
-
-        console.log("this.viewer :", this.viewer )
         folder.render()
         
     }

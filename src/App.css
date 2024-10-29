@@ -9,10 +9,10 @@ body, html {
 .background {
   width: 100vw;
   height: 100vh;
-  background-image: url('/src/assets/anime_background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: lightskyblue;
   user-select: none; /* Makes sure the background is not selectable */
   position: fixed;
   z-index: -1;
