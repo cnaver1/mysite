@@ -12,7 +12,7 @@ export class Viewer{
     }
 
 
-    render(folders:any[]){
+    render(){
         const folder = new Folder("resume",50, 50, this.viewer);
         folder.render()
         
